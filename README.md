@@ -43,17 +43,17 @@ El reporte interactivo se divide en tres perspectivas clave y complementarias pa
 ### 1. Panel de Optimización de Inventarios (Matriz ABC-XYZ)
 Esta es la vista estratégica central del proyecto. Integra los cálculos de variabilidad y valor monetario realizados en SQL. Permite al usuario identificar instantáneamente qué productos caen en el cuadrante crítico **AX** (alta inversión, ventas estables que exigen control estricto) o en cuadrantes **CZ** (baja inversión, demanda impredecible). Incluye un análisis de Pareto interactivo y la distribución porcentual por categorías.
 
-![Optimización de Inventarios](../Images/Optimizacion_Inventarios_View.png)
+![Optimización de Inventarios](Images/Optimizacion_Inventarios_View.png)
 
 ### 2. Panel de Control de Stock & Logística de Almacenes
 Una vista puramente operativa diseñada para la gestión diaria de los almacenes (`ALM-CENTRAL`, `ALM-ACCESORIOS`, etc.). Expone de forma gráfica el balance entre el Stock Actual y el Stock de Seguridad, disparando alertas automáticas sobre qué productos específicos se encuentran en estado de **REORDENAR** o en nivel **CRÍTICO** para mitigar de inmediato cualquier riesgo de quiebra de stock.
 
-![Control de Stock](../Images/Control_Stock_Y_Logistica_Almacenes_View.png)
+![Control de Stock](Images/Control_Stock_Y_Logistica_Almacenes_View.png)
 
 ### 3. Panel de Rendimiento de Ventas
 Perspectiva histórica-comercial que analiza el comportamiento transaccional de la empresa. Muestra de forma acumulada las unidades vendidas, el top de productos con mayor salida y la evolución temporal de la demanda mensual. Es la base que alimenta la lógica analítica de la desviación estándar utilizada en la matriz XYZ.
 
-![Rendimiento de Ventas](../Images/Rendimiento_Ventas_View.png)
+![Rendimiento de Ventas](Images/Rendimiento_Ventas_View.png)
 
 ---
 
